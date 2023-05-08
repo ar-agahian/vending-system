@@ -18,3 +18,12 @@ To run this project locally,
 
 cd src
 go run .
+
+
+## docker-run
+
+Create image and run it,
+
+cd src
+docker build --tag vending-system:latest .
+docker run -it vending-system
