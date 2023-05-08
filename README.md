@@ -4,16 +4,6 @@ This is a simulation of centralized system which controls several vending machin
 
 To use this machines, we need to import the "machine" package in our main function and create one or more VendingMachine objects using the NewVendingMachine constructor function. The NewVendingMachine function takes three arguments: the machine ID, the initial quantity of coffee, and the initial quantity of soft drinks. Main function, also, will be our controlling system.
 
-## unit-test
-
-This package includes unit tests that can be run using the go test command. The tests cover the basic functionality of the VendingMachine type, including placing an order, selecting a beverage, and inserting a coin.
-
-To run the tests, open a terminal in the root directory of this project and type:
-
-bash
-
-go test -v ./...
-
 ## usage
 
 1. Select a vending machine number from 1 to 3 when prompted.
